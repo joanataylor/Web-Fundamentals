@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#canvas{
+  height: 650px;
+  width: 650px;
+  border: 3px solid black;
+  margin: 10px auto;
+  box-shadow: 10px 5px 5px rgb(51, 51, 51);
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#topHalf{
+  height: 65%;
+  width: 100%;
+  background-color: red;
+}
+
+#bottomHalf{
+  height: 27%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+#cornerBlue{
+  height: 100%;
+  width: 22%;
+  background-color: royalblue;
+}
+
+#bottomRight{
+  height: 100%;
+  width: 73%;
+  background-color: orangered;
+}
+
+#wideWhite{
+  height: 100%;
+  width: 75%;
+  background-color: white;
+}
+
+#twinTinyBoxes{
+  height: 100%;
+  max-width: 18%;
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tinyCorner{
+  
+}
+
+#yellow{
+  background-color: yellow;
+}

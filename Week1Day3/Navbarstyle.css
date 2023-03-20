@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: src: url('Roboto-ThinItalic-webfont.eot');
+  font-style: italic;
+}
+
+.nav {
+  height: 50px;
+  display: flex;
+  color: white;
+  background-color: rgb(51, 48, 48);
+}
+
+.nav-title {
+  width: 100%;
+  display: flex;
+  margin-left: 15px;
+  align-items: center;
+  background-color: rgb(51, 48, 48);
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  padding: 25px;
+}
+
+.nav-links {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin: 20px;
+  justify-content: flex-end;
+  list-style: none;
+  background-color: rgb(51, 48, 48);
+}
+
+.btn {
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  color: white;
+  width: 70px;
+  height: 30px;
+  margin-left: 20px;
+  background-color: rgb(97, 209, 209);
+}
+
+.active{
+  display: flex;
+
+}
